@@ -1,0 +1,48 @@
+header {
+    background-image: "!(/gcf-project/photo2.png)";
+    background-position: left center;
+    height: fit-content;
+    background-size: 43.8rem;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    margin: 1rem;
+    background-position-y: center;
+}
+.about {
+  text-align: right;
+  padding: 5.63rem 4.38rem;
+  font-size: 800%;
+  margin: 1rem;
+  font-family: 'Ms Madi', cursive;
+}
+.text {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: large;
+    text-align: center;
+    height: 25rem;
+    padding-top: 6.25rem;
+    margin: 3.13rem;
+   letter-spacing: 1px;
+}
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+@media only screen and (max-width:760px) {
+    .about {
+        text-align: right;
+    }
+    .text {
+        padding-bottom: 50rem;
+    }
+    img {
+        height: auto;
+    }
+    header {
+        background-size: 17rem;
+        padding-top: 3%;
+    }
+}

@@ -1,0 +1,83 @@
+header {
+  background-image: "!(/gcf-project/photo3.jpg)";
+  height: fit-content;
+  background-size: 43.8rem;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+  text-align: right;
+  padding: 4.38rem;
+  font-size: larger;
+  margin: 1rem;
+  background-position-y: center;
+}
+h1 {
+  font-family: "Ms Madi", cursive;
+  font-size: 700%;
+}
+nav {
+  font-family: "Libre Franklin", sans-serif;
+}
+.doctors {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.25rem;
+  padding-top: 9%;
+}
+img {
+  padding: 1.25rem;
+}
+.Hyde:hover {
+  opacity: 0.8;
+}
+.Shirley:hover {
+  opacity: 0.8;
+}
+.Willis:hover {
+  opacity: 0.8;
+}
+.Stuart:hover {
+  opacity: 0.8;
+}
+.names {
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+footer {
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+@media only screen and (max-width: 760px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    background-size: 17rem;
+    padding-top: 30%;
+  }
+  h1 {
+    padding-left: 40%;
+  }
+  p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 280px) {
+  header {
+    background-size: 10rem;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 920px) {
+  p {
+    display: none;
+  }
+  header {
+    background-size: 35rem;
+  }
+}

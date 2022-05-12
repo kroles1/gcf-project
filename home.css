@@ -1,0 +1,101 @@
+header {
+  background-image: "!(/gcf-project/logo.png)";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125rem;
+  height: 32rem;
+  margin: 1rem;
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  padding: 4.35rem;
+}
+h1 {
+  font-size: 800%;
+  font-family: "Ms Madi", cursive;
+  font-weight: bold;
+  padding-top: 9.38rem;
+}
+nav {
+  font-family: "Libre Franklin", sans-serif;
+}
+.text {
+  font-size: 150%;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 1.88rem 3.13rem 0.63rem 3.13rem;
+}
+.image {
+  padding-top: 1.88rem; 
+}
+.image:hover {
+  opacity: 0.8;
+}
+main {
+  display: flex;
+  justify-content: center;
+  /* column-gap: 9.38rem; */
+  text-decoration: none;
+  margin: 1rem;
+}
+.bloom {
+  display: flex;
+  justify-content: center;
+  /* column-gap: 9.38rem; */
+  text-decoration: none;
+  margin: 1rem;
+  align-items: center;
+}
+h2 {
+  font-size: 800%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  padding-left: 1.88rem;
+}
+h2:hover {
+  color: rgb(253, 253, 130);
+}
+footer {
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+@media only screen and (max-width: 920px) {
+  main {
+    flex-direction: column;
+  }
+  .bloom {
+    flex-direction: column;
+  }
+  header {
+    background-size: 50rem;
+    height: auto;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
+ h1 {
+   padding-bottom: 3rem;
+ }
+}
+@media only screen and (min-width: 760px) {
+  header {
+    background-size: 75rem;
+  }
+}
+@media only screen and (min-width: 920px) {
+  header {
+    background-size: 125rem;
+  }
+}
+
